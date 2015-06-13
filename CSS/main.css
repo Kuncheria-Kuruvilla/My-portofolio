@@ -1,0 +1,101 @@
+
+.back
+{
+    background-image: url(img/back.jpg);
+    background-repeat: repeat-x;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;    
+}
+
+.nav
+{
+    position: fixed;
+    background-color: #444444;
+    width:18%;
+    height: 100%;
+    color: white;
+}
+
+.translucent
+{
+    opacity: .85; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=50); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=50)"; /* IE 8 */
+    -khtml-opacity: .50; /* Safari 1.x */
+    -moz-opacity: .50; /* FF lt 1.5, Netscape */
+}
+
+.nav.op
+{
+    opacity: 1.0; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=100); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=100)"; /* IE 8 */
+    -khtml-opacity: 1.0; /* Safari 1.x */
+    -moz-opacity: 1.0; /* FF lt 1.5, Netscape */
+}
+
+.profile
+{
+    position: relative;
+    padding-left:0%;
+    padding-top: 9%;
+    background-color: #3A3A3A;
+    color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+}
+
+#propic
+{
+    width: 70%;
+    height: 70%;
+    margin-left: 5%;
+}
+
+#name
+{
+    margin-left: 7%;
+    margin-right: auto;
+    padding-bottom: 3%;
+}
+
+
+.pic
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 120%;
+    height: 120%;
+}
+
+.btt
+{
+    margin-right: 50%;
+    margin-top: 3%;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.btd
+{
+    margin-top: 11%;
+}
+.button
+{
+    background: #444444;
+    border-bottom-style:3px solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: 3px solid;
+    border-bottom-color: #3A3A3A;
+    border-right-color: #3A3A3A;
+    height: 8%;
+    width: 100%;
+    margin-bottom: 8%;
+    
+}
+
